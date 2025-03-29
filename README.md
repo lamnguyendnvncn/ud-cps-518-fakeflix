@@ -2,9 +2,8 @@
 
 [![Fakeflix](https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_readme.png)](https://fakeflix.th3wall.codes)
 
-
-
 ## Table of Contents
+
 - [About](#about)
 - [Demo](#demo)
 - [Features](#features)
@@ -15,8 +14,8 @@
 - [License](#license)
 
 ## Demo
-[Watch the demo video](123811962-01474580-d8f4-11eb-83ba-66cded3f321f.mp4)
----
+
+## [Watch the demo video](123811962-01474580-d8f4-11eb-83ba-66cded3f321f.mp4)
 
 ## About
 
@@ -73,41 +72,42 @@ Fakeflix is a web application that allows users to browse movies and TV series, 
 
 ---
 
-
 ## Run Locally
 
 1. Clone the project
+
    ```
    git clone https://github.com/sayederfanarefin/ud-cps-518-fakeflix
    ```
 
 2. Navigate to the project directory
 
-    ```
-    cd fakeflix
-    ```
+   ```
+   cd fakeflix
+   ```
 
 3. Install dependencies
 
-    ```
-    npm install
-    ```
+   ```
+   npm install
+   ```
 
 4. Create a .env file
 
-    ```
-    touch .env
-    ```
+   ```
+   touch .env
+   ```
 
 5. Obtain a TMDb API key
 
-- Sign up at The Movie Database (TMDb). [TMDb API](https://www.themoviedb.org/) 
+- Sign up at The Movie Database (TMDb). [TMDb API](https://www.themoviedb.org/)
 - Navigate to API settings and copy the API key.
 - Add the following line to the .env file:
 
   ```
   REACT_APP_API_KEY=your_tmdb_api_key
   ```
+
 6. Set up Firebase
 
 - Sign up at Firebase.
@@ -127,17 +127,19 @@ Fakeflix is a web application that allows users to browse movies and TV series, 
   ```
 
 7. Start the development server
-    ```
-    npm start
-    ```
-
+   ```
+   npm start
+   ```
 
 ## Requirements
+
 - Git installed on your system
 - Node.js installed on your system
 
 ## Testing
+
 - Run the linter
+
   ```
   npm run lint
   ```
@@ -148,4 +150,5 @@ Fakeflix is a web application that allows users to browse movies and TV series, 
   ```
 
 ## License
+
     MIT

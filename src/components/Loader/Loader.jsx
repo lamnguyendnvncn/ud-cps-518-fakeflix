@@ -1,5 +1,5 @@
-import "./loader.scss"
+import "./loader.scss";
 
-const Loader = () => <span className='Loader' />
+const Loader = () => <span className="Loader" />;
 
-export default Loader
+export default Loader;
